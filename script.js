@@ -30,7 +30,7 @@ d3.json("data.json").then(data => {
   rootData = data;
   assignIds(rootData);
   root = d3.hierarchy(rootData);
-  treeLayout = d3.tree().nodeSize([verticalSpacing, horizontalSpacing + 40]);
+  treeLayout = d3.tree().nodeSize([verticalSpacing, horizontalSpacing + 80]);
   if (root.children) root.children.forEach(collapse);
   update(root);
 });
