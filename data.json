@@ -2,217 +2,451 @@
   "name": "Hunt",
   "children": [
     {
-      "name": "Recon",
+      "name": "Recon (OSINT-focused)",
       "children": [
         {
-          "name": "Domain",
+          "name": "Domain & Certificates",
           "children": [
-            {"name": "crt.sh", "url": "https://crt.sh"},
-            {"name": "DNSDumpster", "url": "https://dnsdumpster.com"},
-            {"name": "Amass", "url": "https://github.com/OWASP/Amass"},
-            {"name": "Subfinder", "url": "https://github.com/projectdiscovery/subfinder"},
-            {"name": "Sublist3r", "url": "https://github.com/aboul3la/Sublist3r"},
-            {"name": "WaybackURLs", "url": "https://github.com/tomnomnom/waybackurls"}
+            {
+              "name": "crt.sh",
+              "url": "https://crt.sh"
+            },
+            {
+              "name": "SecurityTrails",
+              "url": "https://securitytrails.com"
+            },
+            {
+              "name": "PassiveTotal / RiskIQ (Passive DNS)",
+              "url": "https://www.riskiq.com/solutions/passive-total/"
+            },
+            {
+              "name": "VirusTotal (domain & file analysis)",
+              "url": "https://www.virustotal.com"
+            },
+            {
+              "name": "Wayback Machine (historical snapshots)",
+              "url": "https://web.archive.org"
+            }
           ]
         },
         {
           "name": "IP & Netblock",
           "children": [
-            {"name": "Shodan", "url": "https://shodan.io"},
-            {"name": "Censys", "url": "https://censys.io"},
-            {"name": "IPinfo", "url": "https://ipinfo.io"}
+            {
+              "name": "Shodan",
+              "url": "https://shodan.io"
+            },
+            {
+              "name": "Censys",
+              "url": "https://censys.io"
+            },
+            {
+              "name": "IPinfo",
+              "url": "https://ipinfo.io"
+            },
+            {
+              "name": "Hurricane Electric BGP / Prefix Tools",
+              "url": "https://bgp.he.net"
+            }
           ]
         },
         {
-          "name": "Whois/NS",
+          "name": "Whois / RDAP",
           "children": [
-            {"name": "Whois", "url": "https://whois.domaintools.com"},
-            {"name": "RDAP", "url": "https://rdap.org"}
+            {
+              "name": "ICANN Lookup (WHOIS / RDAP)",
+              "url": "https://lookup.icann.org"
+            },
+            {
+              "name": "RDAP.org",
+              "url": "https://rdap.org"
+            },
+            {
+              "name": "DomainTools Whois",
+              "url": "https://whois.domaintools.com"
+            }
           ]
         },
         {
-          "name": "Email",
+          "name": "Email / Breach & Reputation",
           "children": [
-            {"name": "Hunter.io", "url": "https://hunter.io"},
-            {"name": "TheHarvester", "url": "https://github.com/laramies/theHarvester"}
+            {
+              "name": "Have I Been Pwned",
+              "url": "https://haveibeenpwned.com"
+            },
+            {
+              "name": "Hunter.io (email discovery)",
+              "url": "https://hunter.io"
+            },
+            {
+              "name": "EmailRep (email reputation)",
+              "url": "https://emailrep.io"
+            }
           ]
         },
         {
-          "name": "OSINT",
+          "name": "Aggregators & Username",
           "children": [
-            {"name": "Have I Been Pwned", "url": "https://haveibeenpwned.com"},
-            {"name": "WhatsMyName", "url": "https://whatsmyname.app"},
-            {"name": "Social Searcher", "url": "https://www.social-searcher.com"}
+            {
+              "name": "WhatsMyName (username search aggregator)",
+              "url": "https://whatsmyname.app"
+            },
+            {
+              "name": "Social Searcher",
+              "url": "https://www.social-searcher.com"
+            },
+            {
+              "name": "IntelX (archive & historic data)",
+              "url": "https://intelx.io"
+            }
           ]
         }
       ]
     },
     {
-      "name": "Scanning",
+      "name": "Image OSINT",
       "children": [
         {
-          "name": "Port Scanning",
+          "name": "Image Analysis & Reverse Image",
           "children": [
-            {"name": "Nmap", "url": "https://nmap.org"},
-            {"name": "Masscan", "url": "https://github.com/robertdavidgraham/masscan"},
-            {"name": "RustScan", "url": "https://rustscan.github.io"}
+            {
+              "name": "Google Images (reverse search)",
+              "url": "https://images.google.com"
+            },
+            {
+              "name": "TinEye (reverse image)",
+              "url": "https://tineye.com"
+            },
+            {
+              "name": "Yandex Images (reverse search)",
+              "url": "https://yandex.com/images/"
+            },
+            {
+              "name": "InVID (video/frame verification & reverse-image)",
+              "url": "https://www.invid-project.eu/tools-and-services/invid-verification-plugin/"
+            },
+            {
+              "name": "FotoForensics (E L A & basic forensics)",
+              "url": "http://fotoforensics.com"
+            }
           ]
         },
         {
-          "name": "Service/Version",
+          "name": "Image Metadata / EXIF / Stego",
           "children": [
-            {"name": "Nmap - service scripts", "url": "https://nmap.org/book/man-nse.html"},
-            {"name": "Banner grabbing (nc/telnet)", "url": "https://nmap.org/book/man-banners.html"}
-          ]
-        },
-        {
-          "name": "Vuln Scanners",
-          "children": [
-            {"name": "OpenVAS/GVM", "url": "https://www.greenbone.net"},
-            {"name": "Nessus", "url": "https://www.tenable.com/products/nessus"}
+            {
+              "name": "ExifTool Online (metadata extraction)",
+              "url": "https://www.verexif.com/en/"
+            },
+            {
+              "name": "StegOnline (steganography viewer)",
+              "url": "https://stegonline.georgeom.net/"
+            },
+            {
+              "name": "Boxentriq Stego Tools",
+              "url": "https://www.boxentriq.com/code-breaking/steganography"
+            }
           ]
         }
       ]
     },
     {
-      "name": "Web",
+      "name": "Geolocation & Maps",
       "children": [
         {
-          "name": "Discovery",
-          "children": [
-            {"name": "Gobuster", "url": "https://github.com/OJ/gobuster"},
-            {"name": "Dirsearch", "url": "https://github.com/maurosoria/dirsearch"},
-            {"name": "wfuzz", "url": "https://github.com/xmendez/wfuzz"}
-          ]
+          "name": "Google Earth / Maps",
+          "url": "https://earth.google.com"
         },
         {
-          "name": "Scanning & Exploitation",
-          "children": [
-            {"name": "Nikto", "url": "https://cirt.net/Nikto2"},
-            {"name": "SQLMap", "url": "https://sqlmap.org"},
-            {"name": "XSStrike", "url": "https://github.com/s0md3v/XSStrike"}
-          ]
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org"
         },
         {
-          "name": "Proxy / Intercept",
-          "children": [
-            {"name": "Burp Suite", "url": "https://portswigger.net/burp"},
-            {"name": "mitmproxy", "url": "https://mitmproxy.org"},
-            {"name": "OWASP ZAP", "url": "https://www.zaproxy.org"}
-          ]
+          "name": "Mapillary (street-level imagery)",
+          "url": "https://www.mapillary.com"
         },
         {
-          "name": "SSRF / S3 / Cloud",
-          "children": [
-            {"name": "SSRFmap", "url": "https://github.com/swisskyrepo/SSRFmap"},
-            {"name": "CloudEnum", "url": "https://github.com/initstring/cloud_enum"}
-          ]
+          "name": "Sentinel Hub (satellite imagery)",
+          "url": "https://www.sentinel-hub.com"
+        },
+        {
+          "name": "Geoguessr-style techniques & resources",
+          "url": "https://www.geoguessr.com"
         }
       ]
     },
     {
-      "name": "Network",
+      "name": "Video & Frame Analysis",
       "children": [
         {
-          "name": "Passive",
-          "children": [
-            {"name": "Wireshark", "url": "https://www.wireshark.org"},
-            {"name": "tcpdump", "url": "https://www.tcpdump.org"}
-          ]
-        },
-        {
-          "name": "Active / MITM",
-          "children": [
-            {"name": "Responder", "url": "https://github.com/lgandx/Responder"},
-            {"name": "BetterCAP", "url": "https://github.com/bettercap/bettercap"},
-            {"name": "Ettercap", "url": "https://www.ettercap-project.org"}
-          ]
-        },
-        {
-          "name": "Wireless",
-          "children": [
-            {"name": "Aircrack-ng", "url": "https://www.aircrack-ng.org"},
-            {"name": "Reaver", "url": "https://github.com/t6x/reaver-wps-fork"},
-            {"name": "Kismet", "url": "https://www.kismetwireless.net"}
-          ]
+          "name": "InVID / Amnesty YouTube Dataviewer",
+          "url": "https://www.invid-project.eu/tools-and-services/invid-verification-plugin/"
         }
       ]
     },
     {
-      "name": "Exploitation",
+      "name": "People / Identity Discovery",
       "children": [
         {
-          "name": "Frameworks",
-          "children": [
-            {"name": "Metasploit", "url": "https://metasploit.help.rapid7.com"},
-            {"name": "SearchSploit (exploit-db)", "url": "https://www.exploit-db.com"}
-          ]
+          "name": "Pipl (people search, paid)",
+          "url": "https://pipl.com"
         },
         {
-          "name": "Binary / Local Exploit",
-          "children": [
-            {"name": "ROPgadget", "url": "https://github.com/JonathanSalwan/ROPgadget"},
-            {"name": "pwndbg", "url": "https://github.com/pwndbg/pwndbg"}
-          ]
+          "name": "Have I Been Pwned (breach lookup)",
+          "url": "https://haveibeenpwned.com"
+        },
+        {
+          "name": "Social Searcher (social monitoring)",
+          "url": "https://www.social-searcher.com"
+        },
+        {
+          "name": "TrueCaller (phone lookup)",
+          "url": "https://www.truecaller.com"
         }
       ]
     },
     {
-      "name": "Post-Exploitation",
+      "name": "Social Media Monitoring & Correlation",
       "children": [
-        {"name": "Mimikatz (note: Windows-focused)", "url": "https://github.com/gentilkiwi/mimikatz"},
-        {"name": "Impacket", "url": "https://github.com/SecureAuthCorp/impacket"},
-        {"name": "PrivEsc - linpeas", "url": "https://github.com/carlospolop/PEASS-ng"}
+        {
+          "name": "X/Twitter search & advanced operators",
+          "url": "https://twitter.com/search-advanced"
+        },
+        {
+          "name": "Instaloader Online Alternatives",
+          "url": "https://www.whois.com/whois/instagram" 
+        },
+        {
+          "name": "Mastodon / Fediverse search tools",
+          "url": "https://joinmastodon.org"
+        },
+        {
+          "name": "Telegram public search & channels",
+          "url": "https://telegram.org"
+        }
       ]
     },
     {
-      "name": "Privilege Escalation",
+      "name": "Archives & Historical Snapshots",
       "children": [
-        {"name": "LinEnum", "url": "https://github.com/rebootuser/LinEnum"},
-        {"name": "Linux Priv Checker (linux-exploit-suggester)", "url": "https://github.com/mzet-/linux-exploit-suggester"},
-        {"name": "GTFOBins", "url": "https://gtfobins.github.io"}
+        {
+          "name": "Wayback Machine",
+          "url": "https://web.archive.org"
+        },
+        {
+          "name": "Archive.today (archive.is)",
+          "url": "https://archive.today"
+        },
+        {
+          "name": "Webrecorder Online",
+          "url": "https://webrecorder.net"
+        }
       ]
     },
     {
-      "name": "Passwords & Hashes",
+      "name": "Code & Repo Search / Leaked Keys",
       "children": [
-        {"name": "John the Ripper", "url": "https://www.openwall.com/john/"},
-        {"name": "Hashcat", "url": "https://hashcat.net/hashcat"},
-        {"name": "Hydra", "url": "https://github.com/vanhauser-thc/thc-hydra"},
-        {"name": "SecLists", "url": "https://github.com/danielmiessler/SecLists"}
+        {
+          "name": "GitHub Code Search",
+          "url": "https://github.com/search"
+        },
+        {
+          "name": "Sourcegraph (code search)",
+          "url": "https://sourcegraph.com"
+        }
       ]
     },
     {
-      "name": "Forensics / IR",
+      "name": "Document Analysis (PDFs / Embedded content)",
       "children": [
-        {"name": "Autopsy", "url": "https://www.sleuthkit.org/autopsy/"},
-        {"name": "Volatility", "url": "https://www.volatilityfoundation.org"},
-        {"name": "Bulk Extractor", "url": "https://github.com/simsong/bulk_extractor"}
+        {
+          "name": "PDF Online Analyzers",
+          "url": "https://www.virustotal.com/gui/home/upload"
+        }
       ]
     },
     {
-      "name": "Containers / Cloud",
+      "name": "Maps & Satellite Imagery Tools",
       "children": [
-        {"name": "Kube-hunter", "url": "https://github.com/aquasecurity/kube-hunter"},
-        {"name": "Kube-bench", "url": "https://github.com/aquasecurity/kube-bench"},
-        {"name": "Trivy", "url": "https://github.com/aquasecurity/trivy"}
+        {
+          "name": "Google Earth Pro Online",
+          "url": "https://www.google.com/earth/versions/#earth-pro"
+        },
+        {
+          "name": "Sentinel Hub / EO Browser",
+          "url": "https://apps.sentinel-hub.com/eo-browser/"
+        },
+        {
+          "name": "OpenAerialMap / OSM imagery sources",
+          "url": "https://openaerialmap.org"
+        }
       ]
     },
     {
-      "name": "Resources",
+      "name": "Mobile App & Phone OSINT",
       "children": [
-        {"name": "Exploit-DB", "url": "https://www.exploit-db.com"},
-        {"name": "PacketStorm", "url": "https://packetstormsecurity.com"},
-        {"name": "Hack The Box", "url": "https://www.hackthebox.com"},
-        {"name": "TryHackMe", "url": "https://tryhackme.com"}
+        {
+          "name": "APKMirror / APKPure (app footprints)",
+          "url": "https://www.apkmirror.com"
+        },
+        {
+          "name": "Google Play store web search",
+          "url": "https://play.google.com/store"
+        }
       ]
     },
     {
-      "name": "Cheatsheets",
+      "name": "Darkweb / Onion Footprinting",
       "children": [
-        {"name": "Nmap Cheatsheet", "url": "https://nmap.org/book/man-quickstart.html"},
-        {"name": "Linux Priv Esc Cheatsheet", "url": "https://github.com/carlospolop/PEASS-ng"},
-        {"name": "PayloadsAllTheThings", "url": "https://github.com/swisskyrepo/PayloadsAllTheThings"}
+        {
+          "name": "Ahmia (onion search)",
+          "url": "https://ahmia.fi"
+        },
+        {
+          "name": "OnionIndex / Hidden Wiki references (research carefully)",
+          "url": "https://onion.site"
+        },
+        {
+          "name": "Tor Project (safety & access)",
+          "url": "https://www.torproject.org"
+        }
+      ]
+    },
+    {
+      "name": "Automation Frameworks & Tooling",
+      "children": [
+        {
+          "name": "SpiderFoot Online",
+          "url": "https://www.spiderfoot.net"
+        },
+        {
+          "name": "Maltego CaseFile / Online Alternatives",
+          "url": "https://www.maltego.com/community-edition/"
+        }
+      ]
+    },
+    {
+      "name": "Evidence Capture & Case Management",
+      "children": [
+        {
+          "name": "Webrecorder Online",
+          "url": "https://webrecorder.net"
+        },
+        {
+          "name": "ArchiveBox Online Alternatives",
+          "url": "https://archivebox.io"
+        }
+      ]
+    },
+    {
+      "name": "Resources (OSINT & Recon)",
+      "children": [
+        {
+          "name": "OSINT Framework (catalogue)",
+          "url": "https://osintframework.com"
+        },
+        {
+          "name": "Bellingcat / Investigative guides",
+          "url": "https://www.bellingcat.com"
+        },
+        {
+          "name": "SANS OSINT resources & papers",
+          "url": "https://www.sans.org"
+        }
+      ]
+    },
+    {
+      "name": "cryptography",
+      "children": [
+        {
+          "name": "hashIdentify",
+          "children": [
+            {
+              "name": "Hashes-dot-com-identify",
+              "url": "https://hashes.com/en/tools/hash_identifier"
+            },
+            {
+              "name": "TunnelsUp Hash Analyzer",
+              "url": "https://www.tunnelsup.com/hash-analyzer/"
+            },
+            {
+              "name": "dCode Hash Identifier",
+              "url": "https://www.dcode.fr/hash-identifier"
+            },
+            {
+              "name": "OnlineHashCrack Hash ID",
+              "url": "https://www.onlinehashcrack.com/hash-identification.php"
+            }
+          ]
+        },
+        {
+          "name": "encoding",
+          "children": [
+            {
+              "name": "CyberChef",
+              "url": "https://gchq.github.io/CyberChef/"
+            },
+            {
+              "name": "Cryptii",
+              "url": "https://cryptii.com/"
+            }
+          ]
+        },
+        {
+          "name": "decoding",
+          "children": [
+            {
+              "name": "CyberChef",
+              "url": "https://gchq.github.io/CyberChef/"
+            },
+            {
+              "name": "dCode",
+              "url": "https://www.dcode.fr/en"
+            },
+            {
+              "name": "Cryptii",
+              "url": "https://cryptii.com/"
+            }
+          ]
+        },
+        {
+          "name": "SecretMessage",
+          "children": [
+            {
+              "name": "CrypTool-Online",
+              "url": "https://cryptool.org/cto/"
+            },
+            {
+              "name": "XOR Tool",
+              "url": "https://gchq.github.io/CyberChef/#recipe=XOR(Key(''),'Standard',false)f&input=SEVMTExP"
+            },
+            {
+              "name": "StegOnline Viewer",
+              "url": "https://stegonline.georgeom.net/"
+            },
+            {
+              "name": "Boxentriq Stego Tools",
+              "url": "https://www.boxentriq.com/code-breaking/steganography"
+            }
+          ]
+        },
+        {
+          "name": "TextAnalyzer",
+          "children": [
+            {
+              "name": "QuipQuip",
+              "url": "https://quipqiup.com/"
+            },
+            {
+              "name": "CyberChef (Frequency Analysis)",
+              "url": "https://gchq.github.io/CyberChef/#recipe=Frequency_analysis()&input=SEVMTExP"
+            },
+            {
+              "name": "dCode Text Analyzer",
+              "url": "https://www.dcode.fr/text-analysis"
+            }
+          ]
+        }
       ]
     }
   ]
