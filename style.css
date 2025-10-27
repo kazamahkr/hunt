@@ -1,0 +1,82 @@
+body{
+  margin:0;
+  padding:0;
+  background:#0b0f12;
+  color:#e6eef6;
+  font-family:Inter,system-ui,Roboto,sans-serif;
+  overflow:auto;
+}
+
+h4{
+  text-align:left;
+  padding:1px 0;
+  padding-left: 10px;
+  color:#3aa4ff;
+}
+
+.controls{
+  text-align:center;
+  margin-bottom:10px;
+}
+
+.controls input{
+  padding:6px 12px;
+  border-radius:6px;
+  border:none;
+  background:rgba(255,255,255,0.05);
+  color:#e6eef6;
+  width:220px;
+}
+
+.node rect{
+  fill:#0f1720;
+  stroke:#3aa4ff;
+  stroke-width:2px;
+  rx:6;
+  ry:6;
+}
+
+.node text{
+  fill:#e6eef6;
+  font-size:12px;
+}
+
+.node:hover rect{
+  fill:#3aa4ff;
+  cursor:pointer;
+}
+
+.node:hover text{
+  fill:#041826;
+}
+
+.link{
+  fill:none;
+  stroke:#3aa4ff;
+  stroke-width:2px;
+}
+
+/* Wrapper scrollable */
+#tree-container-wrapper {
+  width: 100%;
+  height: calc(100vh - 80px); /* Leaves space for navbar + controls */
+  overflow: auto; /* Scroll if tree is too tall */
+}
+
+/* SVG will grow dynamically via JS */
+#tree-container {
+  width: 100%;
+}
+
+.fab-wrap{position:fixed;right:18px;bottom:18px;z-index:999;}
+.fab{
+  width:56px;height:56px;border-radius:50%;display:grid;place-items:center;
+  background:linear-gradient(180deg,#1b2630,#0f1720);
+  box-shadow:0 12px 30px rgba(0,0,0,0.6);
+  cursor:pointer;border:1px solid rgba(255,255,255,0.04);
+  font-size:22px;color:#9fbddf;transition:0.3s;
+}
+.fab:hover{
+  box-shadow:0 12px 30px rgba(58,164,255,0.6);
+  transform:scale(1.1);
+}
