@@ -103,7 +103,7 @@
         }
       ]
     },
-     {
+    {
       "name": "Network search and find",
       "children": [
         {
@@ -173,6 +173,227 @@
         {
           "name": "SANS OSINT resources & papers",
           "url": "https://www.sans.org"
+        }
+      ]
+    },
+    {
+      "name": "People search and identify",
+      "children": [
+        {
+          "name": "Username Search",
+          "children": [
+            {
+              "name": "WhatsMyName",
+              "url": "https://whatsmyname.app"
+            },
+            {
+              "name": "Namechk",
+              "url": "https://namechk.com"
+            },
+            {
+              "name": "CheckUsernames",
+              "url": "https://checkusernames.com"
+            },
+            {
+              "name": "Sherlock (GitHub)",
+              "url": "https://github.com/sherlock-project/sherlock"
+            },
+            {
+              "name": "Social Searcher",
+              "url": "https://www.social-searcher.com"
+            },
+            {
+              "name": "KnowEm (username availability / profile lookup)",
+              "url": "https://knowem.com"
+            },
+            {
+              "name": "UserSearch (aggregator)",
+              "url": "https://usersearch.org"
+            }
+          ]
+        },
+        {
+          "name": "Email Search & Verification",
+          "children": [
+            {
+              "name": "Hunter.io",
+              "url": "https://hunter.io"
+            },
+            {
+              "name": "Phonebook.cz",
+              "url": "https://phonebook.cz"
+            },
+            {
+              "name": "EmailRep",
+              "url": "https://emailrep.io"
+            },
+            {
+              "name": "VoilaNorbert",
+              "url": "https://www.voilanorbert.com"
+            },
+            {
+              "name": "Have I Been Pwned",
+              "url": "https://haveibeenpwned.com"
+            },
+            {
+              "name": "MailboxLayer (email validation API / web)",
+              "url": "https://mailboxlayer.com"
+            },
+            {
+              "name": "MailTester (quick SMTP check)",
+              "url": "https://mailtester.com"
+            }
+          ]
+        },
+        {
+          "name": "Phone Number Search",
+          "children": [
+            {
+              "name": "TrueCaller",
+              "url": "https://www.truecaller.com"
+            },
+            {
+              "name": "NumLookup",
+              "url": "https://www.numlookup.com"
+            },
+            {
+              "name": "Sync.me",
+              "url": "https://sync.me"
+            },
+            {
+              "name": "CallerID Test",
+              "url": "https://calleridtest.com"
+            },
+            {
+              "name": "OpenCNAM (phone lookup service)",
+              "url": "https://www.opencnam.com"
+            }
+          ]
+        },
+        {
+          "name": "Social Media Monitoring & Correlation",
+          "children": [
+            {
+              "name": "Twitter / X Advanced Search",
+              "url": "https://twitter.com/search-advanced"
+            },
+            {
+              "name": "Social Searcher",
+              "url": "https://www.social-searcher.com"
+            },
+            {
+              "name": "CrowdTangle (FB/IG tracking, researchers)",
+              "url": "https://www.crowdtangle.com"
+            },
+            {
+              "name": "Telegram public search",
+              "url": "https://telegram.org"
+            },
+            {
+              "name": "Mastodon / Fediverse directory",
+              "url": "https://joinmastodon.org"
+            },
+            {
+              "name": "TweetDeck (real-time monitoring)",
+              "url": "https://tweetdeck.twitter.com"
+            }
+          ]
+        },
+        {
+          "name": "Profile Correlation / Social Graphing",
+          "children": [
+            {
+              "name": "Maltego CE",
+              "url": "https://www.maltego.com/community-edition/"
+            },
+            {
+              "name": "SpiderFoot Online",
+              "url": "https://www.spiderfoot.net"
+            },
+            {
+              "name": "IntelX",
+              "url": "https://intelx.io"
+            },
+            {
+              "name": "Social Links (demo / integration)",
+              "url": "https://sociallinks.io"
+            },
+            {
+              "name": "Graph Commons (visualize relationships)",
+              "url": "https://graphcommons.com"
+            }
+          ]
+        },
+        {
+          "name": "People Databases & Background",
+          "children": [
+            {
+              "name": "Pipl",
+              "url": "https://pipl.com"
+            },
+            {
+              "name": "Spokeo",
+              "url": "https://www.spokeo.com"
+            },
+            {
+              "name": "PeekYou",
+              "url": "https://www.peekyou.com"
+            },
+            {
+              "name": "ThatsThem",
+              "url": "https://thatsthem.com"
+            },
+            {
+              "name": "Radaris",
+              "url": "https://radaris.com"
+            }
+          ]
+        },
+        {
+          "name": "Face & Image Recognition",
+          "children": [
+            {
+              "name": "PimEyes",
+              "url": "https://pimeyes.com"
+            },
+            {
+              "name": "Search4Faces",
+              "url": "https://search4faces.com"
+            },
+            {
+              "name": "Yandex Image Search",
+              "url": "https://yandex.com/images/"
+            },
+            {
+              "name": "Google Lens (Web)",
+              "url": "https://lens.google.com"
+            }
+          ]
+        },
+        {
+          "name": "Leaked Data & Breaches",
+          "children": [
+            {
+              "name": "Dehashed",
+              "url": "https://www.dehashed.com"
+            },
+            {
+              "name": "LeakCheck",
+              "url": "https://leakcheck.io"
+            },
+            {
+              "name": "Scylla.so",
+              "url": "https://scylla.so"
+            },
+            {
+              "name": "Snusbase",
+              "url": "https://snusbase.com"
+            },
+            {
+              "name": "BreachDirectory",
+              "url": "https://breachdirectory.org"
+            }
+          ]
         }
       ]
     },
@@ -352,27 +573,6 @@
       ]
     },
     {
-      "name": "People / Identity Discovery",
-      "children": [
-        {
-          "name": "Pipl (people search, paid)",
-          "url": "https://pipl.com"
-        },
-        {
-          "name": "Have I Been Pwned (breach lookup)",
-          "url": "https://haveibeenpwned.com"
-        },
-        {
-          "name": "Social Searcher (social monitoring)",
-          "url": "https://www.social-searcher.com"
-        },
-        {
-          "name": "TrueCaller (phone lookup)",
-          "url": "https://www.truecaller.com"
-        }
-      ]
-    },
-    {
       "name": "Social Media Monitoring & Correlation",
       "children": [
         {
@@ -505,6 +705,5 @@
         }
       ]
     }
-   
   ]
 }
